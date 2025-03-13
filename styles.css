@@ -1,0 +1,122 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* لون الخلفية الرمادي الفاتح */
+    color: #333;
+}
+
+/* الهيدر */
+header {
+    background: #1E3A5F; /* أزرق داكن */
+    color: white;
+    padding: 25px;
+    border-bottom: 5px solid #FFC107; /* خط ذهبي */
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    margin: 10px auto;
+}
+
+h1 .highlight {
+    color: #FFC107; /* لون ذهبي */
+}
+
+/* المحتوى الأساسي */
+.content {
+    padding: 20px;
+}
+
+/* زر الموقع الإلكتروني */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #FF9800; /* برتقالي مميز */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background: #E68900; /* لون أغمق عند التحريك */
+}
+
+/* روابط تحميل التطبيقات */
+.app-links a {
+    font-size: 40px;
+    margin: 10px;
+    color: #1E3A5F; /* لون أزرق داكن */
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.app-links a:hover {
+    color: #FF9800;
+}
+
+/* مواقع التواصل الاجتماعي */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.social-media a {
+    font-size: 30px;
+    color: #1E3A5F;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-media a:hover {
+    color: #FFC107;
+}
+
+/* مواقع الفروع */
+.branches {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.branches a {
+    display: inline-block;
+    font-size: 18px;
+    color: #FF9800;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.branches a:hover {
+    color: #E68900;
+}
+
+/* قسم التواصل */
+.contact-info {
+    background: #1E3A5F;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.contact-info a {
+    color: #FFC107;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
